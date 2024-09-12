@@ -1656,3 +1656,9 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+.circle-photo {
+    width: 150px;  /* Adjust the size as needed */
+    height: 150px; /* Equal width and height for a perfect circle */
+    object-fit: cover;  /* Ensures the image fills the circle without distortion */
+    border-radius: 50%; /* Makes the image a circle */
+}
