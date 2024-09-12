@@ -1660,8 +1660,8 @@ input, select, textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 150px;  /* Your preferred width */
-    height: 150px; /* Your preferred height */
+    width: 225px;  /* Your preferred width */
+    height: 225px; /* Your preferred height */
     object-fit: cover;
     border-radius: 50%;
 }
