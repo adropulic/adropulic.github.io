@@ -1657,8 +1657,11 @@ input, select, textarea {
 			opacity: 0;
 		}
 .circle-photo {
-    width: 6px;  /* Adjust the size as needed */
-    height: 6px; /* Equal width and height for a perfect circle */
-    object-fit: cover;  /* Ensures the image fills the circle without distortion */
-    border-radius: 50%; /* Makes the image a circle */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;  /* Your preferred width */
+    height: 150px; /* Your preferred height */
+    object-fit: cover;
+    border-radius: 50%;
 }
